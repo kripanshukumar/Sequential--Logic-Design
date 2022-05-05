@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/Maven Learning/Practicals/Lab2/2 ALU/sim
+vdff
+Z0 !s110 1649655687
+!i10b 1
+!s100 EQln5bePi<94]6b03kdRG3
+IjSLD;2:5j50:d0=OdOV6_1
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dD:/Maven Learning/Practicals/Lab4/4 DFF/sim
+w1649655272
+8D:/Maven Learning/Practicals/Lab4/4 DFF/rtl/dff.v
+FD:/Maven Learning/Practicals/Lab4/4 DFF/rtl/dff.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1649655687.000000
+!s107 D:/Maven Learning/Practicals/Lab4/4 DFF/rtl/dff.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Maven Learning/Practicals/Lab4/4 DFF/rtl/dff.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+vdff_tb
+R0
+!i10b 1
+!s100 S@A3n7R6E?W9jT[:IG@JD0
+I5oR_[WkH53X`AScGAogH<3
+R1
+R2
+w1649655680
+8D:/Maven Learning/Practicals/Lab4/4 DFF/test_bench/dff_sim.v
+FD:/Maven Learning/Practicals/Lab4/4 DFF/test_bench/dff_sim.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/Maven Learning/Practicals/Lab4/4 DFF/test_bench/dff_sim.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Maven Learning/Practicals/Lab4/4 DFF/test_bench/dff_sim.v|
+!i113 1
+R5
+R6

@@ -1,0 +1,8 @@
+{D:/Maven Learning/Practicals/Lab4/2 TFF/test_bench/counter_tb.v} {1 {vlog -work counter_sim -stats=none {D:/Maven Learning/Practicals/Lab4/2 TFF/test_bench/counter_tb.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module counter_tb
+
+Top level modules:
+	counter_tb
+
+} {} {}}

@@ -1,0 +1,15 @@
+{D:/Maven Learning/Practicals/Lab4/8 SISO/test_bench/siso_tb.v} {1 {vlog -work siso_sim -stats=none {D:/Maven Learning/Practicals/Lab4/8 SISO/test_bench/siso_tb.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module siso_tb
+
+Top level modules:
+	siso_tb
+
+} {} {}} {D:/Maven Learning/Practicals/Lab4/8 SISO/rtl/siso_4_bit.v} {1 {vlog -work siso_sim -stats=none {D:/Maven Learning/Practicals/Lab4/8 SISO/rtl/siso_4_bit.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module siso_4_bit
+
+Top level modules:
+	siso_4_bit
+
+} {} {}}

@@ -1,0 +1,126 @@
+# Reading C:/intelFPGA/17.1/modelsim_ase/tcl/vsim/pref.tcl
+# OpenFile {D:/Maven Learning/Practicals/Lab4/8 SISO/sim/SISO_4_BIT.mpf}
+# Loading project SISO_4_BIT
+# Compile of siso_4_bit.v was successful.
+# Compile of siso_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui siso_sim.siso_tb
+# vsim -gui siso_sim.siso_tb 
+# Start time: 18:57:30 on Apr 11,2022
+# Loading siso_sim.siso_tb
+# Loading siso_sim.siso_4_bit
+add wave -position insertpoint sim:/siso_tb/*
+run -all
+# RST: 0, S_IN: 0, CLK: 1, S_OUT: x
+# RST: 0, S_IN: 1, CLK: 1, S_OUT: x
+# RST: 0, S_IN: 0, CLK: 1, S_OUT: x
+# RST: 0, S_IN: 1, CLK: 1, S_OUT: x
+# RST: 0, S_IN: 0, CLK: 1, S_OUT: x
+# RST: 0, S_IN: 1, CLK: 1, S_OUT: x
+# RST: 0, S_IN: 0, CLK: 1, S_OUT: x
+# RST: 0, S_IN: 1, CLK: 1, S_OUT: x
+# RST: 0, S_IN: 0, CLK: 1, S_OUT: x
+# RST: 0, S_IN: 1, CLK: 1, S_OUT: x
+# RST: 0, S_IN: 0, CLK: 1, S_OUT: x
+# RST: 0, S_IN: 1, CLK: 1, S_OUT: x
+# RST: 0, S_IN: 0, CLK: 1, S_OUT: x
+# RST: 0, S_IN: 1, CLK: 1, S_OUT: x
+# RST: 0, S_IN: 0, CLK: 1, S_OUT: x
+# RST: 0, S_IN: 1, CLK: 1, S_OUT: x
+# RST: 0, S_IN: 0, CLK: 1, S_OUT: x
+# RST: 0, S_IN: 1, CLK: 1, S_OUT: x
+# RST: 0, S_IN: 0, CLK: 1, S_OUT: x
+# RST: 0, S_IN: 1, CLK: 1, S_OUT: x
+# RST: 0, S_IN: 0, CLK: 1, S_OUT: x
+# RST: 0, S_IN: 1, CLK: 1, S_OUT: x
+# RST: 0, S_IN: 0, CLK: 1, S_OUT: x
+# RST: 0, S_IN: 1, CLK: 1, S_OUT: x
+# RST: 0, S_IN: 0, CLK: 1, S_OUT: x
+# RST: 0, S_IN: 1, CLK: 1, S_OUT: x
+# RST: 0, S_IN: 0, CLK: 1, S_OUT: x
+# RST: 0, S_IN: 1, CLK: 1, S_OUT: x
+# RST: 0, S_IN: 0, CLK: 1, S_OUT: x
+# RST: 0, S_IN: 1, CLK: 1, S_OUT: x
+# RST: 0, S_IN: 0, CLK: 1, S_OUT: x
+# RST: 0, S_IN: 1, CLK: 1, S_OUT: x
+# ** Note: $finish    : D:/Maven Learning/Practicals/Lab4/8 SISO/test_bench/siso_tb.v(20)
+#    Time: 180 ps  Iteration: 0  Instance: /siso_tb
+# 1
+# Break in Module siso_tb at D:/Maven Learning/Practicals/Lab4/8 SISO/test_bench/siso_tb.v line 20
+# Compile of siso_4_bit.v was successful.
+# Compile of siso_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# Loading siso_sim.siso_tb
+# Loading siso_sim.siso_4_bit
+run -all
+# RST: 0, S_IN: 0, CLK: 0, S_OUT: x
+# RST: 0, S_IN: 0, CLK: 1, S_OUT: x
+# RST: 0, S_IN: 1, CLK: 0, S_OUT: x
+# RST: 0, S_IN: 1, CLK: 1, S_OUT: x
+# RST: 0, S_IN: 0, CLK: 0, S_OUT: x
+# RST: 0, S_IN: 0, CLK: 1, S_OUT: x
+# RST: 0, S_IN: 1, CLK: 0, S_OUT: x
+# RST: 0, S_IN: 1, CLK: 1, S_OUT: 0
+# RST: 0, S_IN: 0, CLK: 0, S_OUT: 0
+# RST: 0, S_IN: 0, CLK: 1, S_OUT: 1
+# RST: 0, S_IN: 1, CLK: 0, S_OUT: 1
+# RST: 0, S_IN: 1, CLK: 1, S_OUT: 0
+# RST: 0, S_IN: 0, CLK: 0, S_OUT: 0
+# RST: 0, S_IN: 0, CLK: 1, S_OUT: 1
+# RST: 0, S_IN: 1, CLK: 0, S_OUT: 1
+# RST: 0, S_IN: 1, CLK: 1, S_OUT: 0
+# RST: 0, S_IN: 0, CLK: 0, S_OUT: 0
+# RST: 0, S_IN: 0, CLK: 1, S_OUT: 1
+# RST: 0, S_IN: 1, CLK: 0, S_OUT: 1
+# RST: 0, S_IN: 1, CLK: 1, S_OUT: 0
+# RST: 0, S_IN: 0, CLK: 0, S_OUT: 0
+# RST: 0, S_IN: 0, CLK: 1, S_OUT: 1
+# RST: 0, S_IN: 1, CLK: 0, S_OUT: 1
+# RST: 0, S_IN: 1, CLK: 1, S_OUT: 0
+# RST: 0, S_IN: 0, CLK: 0, S_OUT: 0
+# RST: 0, S_IN: 0, CLK: 1, S_OUT: 1
+# RST: 0, S_IN: 1, CLK: 0, S_OUT: 1
+# RST: 0, S_IN: 1, CLK: 1, S_OUT: 0
+# RST: 0, S_IN: 0, CLK: 0, S_OUT: 0
+# RST: 0, S_IN: 0, CLK: 1, S_OUT: 1
+# RST: 0, S_IN: 1, CLK: 0, S_OUT: 1
+# RST: 0, S_IN: 1, CLK: 1, S_OUT: 0
+# RST: 1, S_IN: 0, CLK: 0, S_OUT: 0
+# RST: 1, S_IN: 0, CLK: 1, S_OUT: 0
+# RST: 1, S_IN: 1, CLK: 0, S_OUT: 0
+# RST: 1, S_IN: 1, CLK: 1, S_OUT: 0
+# RST: 1, S_IN: 0, CLK: 0, S_OUT: 0
+# RST: 1, S_IN: 0, CLK: 1, S_OUT: 0
+# RST: 1, S_IN: 1, CLK: 0, S_OUT: 0
+# RST: 1, S_IN: 1, CLK: 1, S_OUT: 0
+# RST: 1, S_IN: 0, CLK: 0, S_OUT: 0
+# RST: 1, S_IN: 0, CLK: 1, S_OUT: 0
+# RST: 1, S_IN: 1, CLK: 0, S_OUT: 0
+# RST: 1, S_IN: 1, CLK: 1, S_OUT: 0
+# RST: 1, S_IN: 0, CLK: 0, S_OUT: 0
+# RST: 1, S_IN: 0, CLK: 1, S_OUT: 0
+# RST: 1, S_IN: 1, CLK: 0, S_OUT: 0
+# RST: 1, S_IN: 1, CLK: 1, S_OUT: 0
+# RST: 1, S_IN: 0, CLK: 0, S_OUT: 0
+# RST: 1, S_IN: 0, CLK: 1, S_OUT: 0
+# RST: 1, S_IN: 1, CLK: 0, S_OUT: 0
+# RST: 1, S_IN: 1, CLK: 1, S_OUT: 0
+# RST: 1, S_IN: 0, CLK: 0, S_OUT: 0
+# RST: 1, S_IN: 0, CLK: 1, S_OUT: 0
+# RST: 1, S_IN: 1, CLK: 0, S_OUT: 0
+# RST: 1, S_IN: 1, CLK: 1, S_OUT: 0
+# RST: 1, S_IN: 0, CLK: 0, S_OUT: 0
+# RST: 1, S_IN: 0, CLK: 1, S_OUT: 0
+# RST: 1, S_IN: 1, CLK: 0, S_OUT: 0
+# RST: 1, S_IN: 1, CLK: 1, S_OUT: 0
+# RST: 1, S_IN: 0, CLK: 0, S_OUT: 0
+# RST: 1, S_IN: 0, CLK: 1, S_OUT: 0
+# RST: 1, S_IN: 1, CLK: 0, S_OUT: 0
+# RST: 1, S_IN: 1, CLK: 1, S_OUT: 0
+# ** Note: $finish    : D:/Maven Learning/Practicals/Lab4/8 SISO/test_bench/siso_tb.v(21)
+#    Time: 340 ps  Iteration: 0  Instance: /siso_tb
+# 1
+# Break in Module siso_tb at D:/Maven Learning/Practicals/Lab4/8 SISO/test_bench/siso_tb.v line 21
+# End time: 19:04:27 on Apr 11,2022, Elapsed time: 0:06:57
+# Errors: 0, Warnings: 0

@@ -1,0 +1,18 @@
+{D:/Maven Learning/Practicals/Lab4/4 JK_FLIP_FLOP_PAR_HOLD_SET_RESET_TOGGLE/test_bench/jk_ff_tb.v} {1 {vlog -work jk_sim -stats=none {D:/Maven Learning/Practicals/Lab4/4 JK_FLIP_FLOP_PAR_HOLD_SET_RESET_TOGGLE/test_bench/jk_ff_tb.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module jk_ff_tb
+
+Top level modules:
+	jk_ff_tb
+
+} {} {}} {D:/Maven Learning/Practicals/Lab4/4 JK_FLIP_FLOP_PAR_HOLD_SET_RESET_TOGGLE/rtl/def.v} {1 {vlog -work jk_sim -stats=none {D:\Maven Learning\Practicals\Lab4\4 JK_FLIP_FLOP_PAR_HOLD_SET_RESET_TOGGLE\rtl\def.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+
+} {} {}} {D:/Maven Learning/Practicals/Lab4/4 JK_FLIP_FLOP_PAR_HOLD_SET_RESET_TOGGLE/rtl/jk_ff.v} {1 {vlog -work jk_sim -stats=none {D:/Maven Learning/Practicals/Lab4/4 JK_FLIP_FLOP_PAR_HOLD_SET_RESET_TOGGLE/rtl/jk_ff.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module jk_flip_flop
+
+Top level modules:
+	jk_flip_flop
+
+} {} {}}

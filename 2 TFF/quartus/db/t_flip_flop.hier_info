@@ -1,0 +1,16 @@
+|t_flip_flop
+q <= d_flip_flop:d1.port0
+q_bar <= d_flip_flop:d1.port1
+t => x1.IN1
+clk => clk.IN1
+reset => reset.IN1
+
+
+|t_flip_flop|d_flip_flop:d1
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q_bar <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+d => q~reg0.DATAIN
+clk => q~reg0.CLK
+reset => q~reg0.ACLR
+
+

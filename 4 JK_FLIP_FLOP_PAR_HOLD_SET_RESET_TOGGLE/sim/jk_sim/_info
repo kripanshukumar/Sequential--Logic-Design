@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/Maven Learning/Practicals/Lab4/2 TFF/sim
+vjk_ff_tb
+Z0 !s110 1649667404
+!i10b 1
+!s100 @b2bM<]`Ih7g>aUCQbjhN0
+IU>Pn@z5S7kca0A7XXVRj82
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dD:/Maven Learning/Practicals/Lab4/4 JK_FLIP_FLOP_PAR_HOLD_SET_RESET_TOGGLE/sim
+w1649667393
+8D:/Maven Learning/Practicals/Lab4/4 JK_FLIP_FLOP_PAR_HOLD_SET_RESET_TOGGLE/test_bench/jk_ff_tb.v
+FD:/Maven Learning/Practicals/Lab4/4 JK_FLIP_FLOP_PAR_HOLD_SET_RESET_TOGGLE/test_bench/jk_ff_tb.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1649667404.000000
+!s107 D:/Maven Learning/Practicals/Lab4/4 JK_FLIP_FLOP_PAR_HOLD_SET_RESET_TOGGLE/test_bench/jk_ff_tb.v|
+!s90 -reportprogress|300|-work|jk_sim|-stats=none|D:/Maven Learning/Practicals/Lab4/4 JK_FLIP_FLOP_PAR_HOLD_SET_RESET_TOGGLE/test_bench/jk_ff_tb.v|
+!i113 1
+Z5 o-work jk_sim
+Z6 tCvgOpt 0
+vjk_flip_flop
+R0
+!i10b 1
+!s100 KcCTbgD5g3VJeWEhc1U5V2
+IAQC`0SBEWOWkW]037KbBP2
+R1
+R2
+w1649667322
+8D:/Maven Learning/Practicals/Lab4/4 JK_FLIP_FLOP_PAR_HOLD_SET_RESET_TOGGLE/rtl/jk_ff.v
+FD:/Maven Learning/Practicals/Lab4/4 JK_FLIP_FLOP_PAR_HOLD_SET_RESET_TOGGLE/rtl/jk_ff.v
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:\Maven Learning\Practicals\Lab4\4 JK_FLIP_FLOP_PAR_HOLD_SET_RESET_TOGGLE\rtl\def.v|D:/Maven Learning/Practicals/Lab4/4 JK_FLIP_FLOP_PAR_HOLD_SET_RESET_TOGGLE/rtl/jk_ff.v|
+!s90 -reportprogress|300|-work|jk_sim|-stats=none|D:/Maven Learning/Practicals/Lab4/4 JK_FLIP_FLOP_PAR_HOLD_SET_RESET_TOGGLE/rtl/jk_ff.v|
+!i113 1
+R5
+R6

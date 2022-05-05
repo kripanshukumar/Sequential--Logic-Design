@@ -1,0 +1,572 @@
+# Reading C:/intelFPGA/17.1/modelsim_ase/tcl/vsim/pref.tcl
+# OpenFile {D:/Maven Learning/Practicals/Lab4/2 TFF/sim/t_flip_flop.mpf}
+# Loading project t_flip_flop
+vsim -gui tff_sim.dff_tb
+# vsim -gui tff_sim.dff_tb 
+# Start time: 11:57:27 on Apr 11,2022
+# Loading tff_sim.dff_tb
+# Loading tff_sim.t_flip_flop
+# ** Error: (vsim-3033) D:/Maven Learning/Practicals/Lab4/2 TFF/rtl/tff.v(10): Instantiation of 'd_flip_flop' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /dff_tb/dut File: D:/Maven Learning/Practicals/Lab4/2 TFF/rtl/tff.v
+#         Searched libraries:
+#             D:/Maven Learning/Practicals/Lab4/2 TFF/sim/tff_sim
+# Error loading design
+# End time: 11:57:27 on Apr 11,2022, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# reading C:/intelFPGA/17.1/modelsim_ase/win32aloem/../modelsim.ini
+# Loading project tff
+# Compile of tff.v was successful.
+# Compile of d_flip_flop.v was successful.
+# Compile of tff_tb.v was successful.
+# 3 compiles, 0 failed with no errors.
+# Load canceled
+# Compile of tff.v was successful.
+# Compile of d_flip_flop.v was successful.
+# Compile of tff_tb.v was successful.
+# 3 compiles, 0 failed with no errors.
+vsim -gui tff_sim.tff_tb
+# vsim -gui tff_sim.tff_tb 
+# Start time: 11:59:11 on Apr 11,2022
+# Loading tff_sim.tff_tb
+# Loading tff_sim.t_flip_flop
+# Loading tff_sim.d_flip_flop
+add wave -position insertpoint sim:/tff_tb/dut/*
+run
+# CLK = 0, T = 0, RESET = 0, Q = x, Q_BAR = x
+# CLK = 1, T = 0, RESET = 0, Q = x, Q_BAR = x
+# CLK = 0, T = 1, RESET = 0, Q = x, Q_BAR = x
+# CLK = 1, T = 1, RESET = 0, Q = x, Q_BAR = x
+# CLK = 0, T = 0, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 1, T = 0, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 0, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 1, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 0, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 1, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# ** Note: $finish    : D:/Maven Learning/Practicals/Lab4/2 TFF/test_bench/tff_tb.v(27)
+#    Time: 100 ps  Iteration: 0  Instance: /tff_tb
+# 1
+# Break in Module tff_tb at D:/Maven Learning/Practicals/Lab4/2 TFF/test_bench/tff_tb.v line 27
+# Compile of tff.v was successful.
+# Compile of d_flip_flop.v was successful.
+# Compile of tff_tb.v was successful.
+# 3 compiles, 0 failed with no errors.
+restart
+# Loading tff_sim.tff_tb
+# Loading tff_sim.t_flip_flop
+# Loading tff_sim.d_flip_flop
+run
+# CLK = 0, T = 0, RESET = 0, Q = x, Q_BAR = x
+# CLK = 1, T = 0, RESET = 0, Q = x, Q_BAR = x
+# CLK = 0, T = 1, RESET = 0, Q = x, Q_BAR = x
+# CLK = 1, T = 1, RESET = 0, Q = x, Q_BAR = x
+# CLK = 0, T = 0, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 1, T = 0, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 0, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 1, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 0, T = 0, RESET = 0, Q = 0, Q_BAR = 1
+# CLK = 1, T = 0, RESET = 0, Q = x, Q_BAR = x
+run
+# CLK = 0, T = 1, RESET = 0, Q = x, Q_BAR = x
+# CLK = 1, T = 1, RESET = 0, Q = x, Q_BAR = x
+# CLK = 0, T = 0, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 1, T = 0, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 0, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 1, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 0, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 1, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# ** Note: $finish    : D:/Maven Learning/Practicals/Lab4/2 TFF/test_bench/tff_tb.v(27)
+#    Time: 180 ps  Iteration: 0  Instance: /tff_tb
+# 1
+# Break in Module tff_tb at D:/Maven Learning/Practicals/Lab4/2 TFF/test_bench/tff_tb.v line 27
+# Compile of tff.v was successful.
+# Compile of d_flip_flop.v was successful.
+# Compile of tff_tb.v was successful.
+# 3 compiles, 0 failed with no errors.
+restart
+# Loading tff_sim.tff_tb
+# Loading tff_sim.t_flip_flop
+# Loading tff_sim.d_flip_flop
+run
+# CLK = 0, T = 0, RESET = 0, Q = x, Q_BAR = x
+# CLK = 1, T = 0, RESET = 0, Q = x, Q_BAR = x
+# CLK = 0, T = 1, RESET = 0, Q = x, Q_BAR = x
+# CLK = 1, T = 1, RESET = 0, Q = x, Q_BAR = x
+# CLK = 0, T = 0, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 1, T = 0, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 0, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 1, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 0, T = 0, RESET = 0, Q = 0, Q_BAR = 1
+# CLK = 1, T = 0, RESET = 0, Q = 0, Q_BAR = 1
+run
+# CLK = 0, T = 1, RESET = 0, Q = 0, Q_BAR = 1
+# CLK = 1, T = 1, RESET = 0, Q = 1, Q_BAR = 0
+# CLK = 0, T = 0, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 1, T = 0, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 0, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 1, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 0, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 1, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# ** Note: $finish    : D:/Maven Learning/Practicals/Lab4/2 TFF/test_bench/tff_tb.v(27)
+#    Time: 180 ps  Iteration: 0  Instance: /tff_tb
+# 1
+# Break in Module tff_tb at D:/Maven Learning/Practicals/Lab4/2 TFF/test_bench/tff_tb.v line 27
+# Compile of tff.v was successful.
+# Compile of d_flip_flop.v was successful.
+# Compile of tff_tb.v was successful.
+# 3 compiles, 0 failed with no errors.
+restart
+# Loading tff_sim.tff_tb
+# Loading tff_sim.t_flip_flop
+# Loading tff_sim.d_flip_flop
+run
+# CLK = 0, T = 0, RESET = 0, Q = x, Q_BAR = x
+# CLK = 1, T = 0, RESET = 0, Q = x, Q_BAR = x
+# CLK = 1, T = 1, RESET = 0, Q = x, Q_BAR = x
+# CLK = 0, T = 1, RESET = 0, Q = x, Q_BAR = x
+# CLK = 1, T = 1, RESET = 0, Q = x, Q_BAR = x
+# CLK = 1, T = 0, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 0, T = 0, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 1, T = 0, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 1, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 0, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 1, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 1, T = 0, RESET = 0, Q = 0, Q_BAR = 1
+# CLK = 0, T = 0, RESET = 0, Q = 0, Q_BAR = 1
+# CLK = 1, T = 0, RESET = 0, Q = 0, Q_BAR = 1
+# CLK = 1, T = 1, RESET = 0, Q = 0, Q_BAR = 1
+# CLK = 0, T = 1, RESET = 0, Q = 0, Q_BAR = 1
+# CLK = 1, T = 1, RESET = 0, Q = 1, Q_BAR = 0
+# CLK = 1, T = 0, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 0, T = 0, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 1, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 0, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+run
+# CLK = 1, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 0, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 1, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# ** Note: $finish    : D:/Maven Learning/Practicals/Lab4/2 TFF/test_bench/tff_tb.v(27)
+#    Time: 124 ps  Iteration: 0  Instance: /tff_tb
+# 1
+# Break in Module tff_tb at D:/Maven Learning/Practicals/Lab4/2 TFF/test_bench/tff_tb.v line 27
+# Compile of tff.v was successful.
+# Compile of d_flip_flop.v was successful.
+# Compile of tff_tb.v was successful.
+# 3 compiles, 0 failed with no errors.
+restart
+# Loading tff_sim.tff_tb
+# Loading tff_sim.t_flip_flop
+# Loading tff_sim.d_flip_flop
+run
+# CLK = 0, T = 0, RESET = 0, Q = x, Q_BAR = x
+# CLK = 1, T = 0, RESET = 0, Q = x, Q_BAR = x
+# CLK = 1, T = 1, RESET = 0, Q = x, Q_BAR = x
+# CLK = 0, T = 1, RESET = 0, Q = x, Q_BAR = x
+# CLK = 1, T = 1, RESET = 0, Q = x, Q_BAR = x
+# CLK = 1, T = 0, RESET = 0, Q = x, Q_BAR = x
+# CLK = 0, T = 0, RESET = 0, Q = x, Q_BAR = x
+# CLK = 1, T = 0, RESET = 0, Q = x, Q_BAR = x
+# CLK = 1, T = 1, RESET = 0, Q = x, Q_BAR = x
+# CLK = 0, T = 1, RESET = 0, Q = x, Q_BAR = x
+# CLK = 1, T = 1, RESET = 0, Q = x, Q_BAR = x
+# CLK = 1, T = 0, RESET = 0, Q = x, Q_BAR = x
+# CLK = 0, T = 0, RESET = 0, Q = x, Q_BAR = x
+# CLK = 1, T = 0, RESET = 0, Q = x, Q_BAR = x
+# CLK = 1, T = 1, RESET = 0, Q = x, Q_BAR = x
+# CLK = 0, T = 1, RESET = 0, Q = x, Q_BAR = x
+# CLK = 1, T = 1, RESET = 0, Q = x, Q_BAR = x
+# CLK = 1, T = 0, RESET = 0, Q = x, Q_BAR = x
+# CLK = 0, T = 0, RESET = 0, Q = x, Q_BAR = x
+# CLK = 1, T = 1, RESET = 0, Q = x, Q_BAR = x
+# CLK = 0, T = 1, RESET = 0, Q = x, Q_BAR = x
+run
+# CLK = 1, T = 1, RESET = 0, Q = x, Q_BAR = x
+# CLK = 0, T = 1, RESET = 0, Q = x, Q_BAR = x
+# CLK = 1, T = 1, RESET = 0, Q = x, Q_BAR = x
+# ** Note: $finish    : D:/Maven Learning/Practicals/Lab4/2 TFF/test_bench/tff_tb.v(27)
+#    Time: 124 ps  Iteration: 0  Instance: /tff_tb
+# 1
+# Break in Module tff_tb at D:/Maven Learning/Practicals/Lab4/2 TFF/test_bench/tff_tb.v line 27
+# Compile of tff.v was successful.
+# Compile of d_flip_flop.v was successful.
+# Compile of tff_tb.v failed with 1 errors.
+# 3 compiles, 1 failed with 1 error.
+# Compile of tff.v was successful.
+# Compile of d_flip_flop.v was successful.
+# Compile of tff_tb.v was successful.
+# 3 compiles, 0 failed with no errors.
+restart
+# Loading tff_sim.tff_tb
+# Loading tff_sim.t_flip_flop
+# Loading tff_sim.d_flip_flop
+add wave sim:/tff_tb/*
+quit -sim
+# End time: 12:13:04 on Apr 11,2022, Elapsed time: 0:13:53
+# Errors: 0, Warnings: 0
+vsim -gui tff_sim.tff_tb
+# vsim -gui tff_sim.tff_tb 
+# Start time: 12:13:14 on Apr 11,2022
+# Loading tff_sim.tff_tb
+# Loading tff_sim.t_flip_flop
+# Loading tff_sim.d_flip_flop
+run -continue
+run -all
+# CLK = 0, T = 0, RESET = 0, Q = x, Q_BAR = x
+# CLK = 1, T = 0, RESET = 0, Q = x, Q_BAR = x
+# CLK = 1, T = 1, RESET = 0, Q = x, Q_BAR = x
+# CLK = 0, T = 1, RESET = 0, Q = x, Q_BAR = x
+# CLK = 1, T = 1, RESET = 0, Q = x, Q_BAR = x
+# CLK = 1, T = 0, RESET = 0, Q = x, Q_BAR = x
+# CLK = 0, T = 0, RESET = 0, Q = x, Q_BAR = x
+# CLK = 1, T = 0, RESET = 0, Q = x, Q_BAR = x
+# CLK = 1, T = 1, RESET = 0, Q = x, Q_BAR = x
+# CLK = 0, T = 1, RESET = 0, Q = x, Q_BAR = x
+# CLK = 1, T = 1, RESET = 0, Q = x, Q_BAR = x
+# CLK = 1, T = 0, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 0, T = 0, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 1, T = 0, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 1, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 0, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 1, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 1, T = 0, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 0, T = 0, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 1, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 0, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 1, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 0, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 1, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# ** Note: $finish    : D:/Maven Learning/Practicals/Lab4/2 TFF/test_bench/tff_tb.v(27)
+#    Time: 124 ps  Iteration: 0  Instance: /tff_tb
+# 1
+# Break in Module tff_tb at D:/Maven Learning/Practicals/Lab4/2 TFF/test_bench/tff_tb.v line 27
+run
+# CLK = 0, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 1, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 0, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 1, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 0, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 1, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 0, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 1, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 0, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 1, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 0, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 1, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 0, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 1, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+run
+# CLK = 0, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 1, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 0, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 1, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 0, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 1, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 0, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 1, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 0, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 1, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 0, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 1, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 0, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 1, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 0, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+run
+# CLK = 1, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 0, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 1, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 0, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 1, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 0, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 1, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 0, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 1, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 0, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 1, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 0, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 1, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 0, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+run
+# CLK = 1, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 0, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 1, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 0, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 1, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 0, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 1, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 0, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 1, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 0, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 1, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 0, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 1, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 0, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+run
+# CLK = 1, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 0, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 1, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 0, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 1, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 0, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 1, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 0, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 1, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 0, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 1, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 0, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 1, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 0, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 1, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+run
+# CLK = 0, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 1, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 0, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 1, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 0, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 1, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 0, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 1, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 0, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 1, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 0, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 1, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 0, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 1, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+run
+# CLK = 0, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 1, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 0, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 1, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 0, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 1, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 0, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 1, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 0, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 1, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 0, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 1, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 0, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 1, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+run
+# CLK = 0, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 1, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 0, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 1, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 0, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 1, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 0, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 1, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 0, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 1, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 0, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 1, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 0, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 1, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+run
+# CLK = 0, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 1, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 0, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 1, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 0, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 1, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 0, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 1, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 0, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 1, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 0, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 1, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 0, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 1, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 0, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+run
+# CLK = 1, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 0, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 1, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 0, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 1, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 0, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 1, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 0, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 1, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 0, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 1, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 0, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 1, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 0, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+run
+# CLK = 1, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 0, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 1, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 0, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 1, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 0, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 1, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 0, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 1, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 0, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 1, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 0, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 1, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 0, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+run
+# CLK = 1, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 0, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 1, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 0, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 1, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 0, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 1, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 0, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 1, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 0, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 1, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 0, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 1, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 0, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 1, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+restart
+add wave sim:/tff_tb/*
+run -all
+# CLK = 0, T = 0, RESET = 0, Q = x, Q_BAR = x
+# CLK = 1, T = 0, RESET = 0, Q = x, Q_BAR = x
+# CLK = 1, T = 1, RESET = 0, Q = x, Q_BAR = x
+# CLK = 0, T = 1, RESET = 0, Q = x, Q_BAR = x
+# CLK = 1, T = 1, RESET = 0, Q = x, Q_BAR = x
+# CLK = 1, T = 0, RESET = 0, Q = x, Q_BAR = x
+# CLK = 0, T = 0, RESET = 0, Q = x, Q_BAR = x
+# CLK = 1, T = 0, RESET = 0, Q = x, Q_BAR = x
+# CLK = 1, T = 1, RESET = 0, Q = x, Q_BAR = x
+# CLK = 0, T = 1, RESET = 0, Q = x, Q_BAR = x
+# CLK = 1, T = 1, RESET = 0, Q = x, Q_BAR = x
+# CLK = 1, T = 0, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 0, T = 0, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 1, T = 0, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 1, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 0, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 1, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 1, T = 0, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 0, T = 0, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 1, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 0, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 1, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 0, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 1, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# ** Note: $finish    : D:/Maven Learning/Practicals/Lab4/2 TFF/test_bench/tff_tb.v(27)
+#    Time: 124 ps  Iteration: 0  Instance: /tff_tb
+# 1
+# Break in Module tff_tb at D:/Maven Learning/Practicals/Lab4/2 TFF/test_bench/tff_tb.v line 27
+run
+# CLK = 0, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 1, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 0, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 1, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 0, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 1, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 0, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 1, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 0, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 1, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 0, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 1, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 0, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 1, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+run
+# CLK = 0, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 1, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 0, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 1, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 0, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 1, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 0, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 1, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 0, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 1, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 0, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 1, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 0, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 1, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 0, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# Compile of tff.v was successful.
+# Compile of d_flip_flop.v was successful.
+# Compile of tff_tb.v was successful.
+# 3 compiles, 0 failed with no errors.
+quit -sim
+vsim -gui tff_sim.tff_tb
+# End time: 12:16:12 on Apr 11,2022, Elapsed time: 0:02:58
+# Errors: 0, Warnings: 0
+# vsim -gui tff_sim.tff_tb 
+# Start time: 12:16:12 on Apr 11,2022
+# Loading tff_sim.tff_tb
+# Loading tff_sim.t_flip_flop
+# Loading tff_sim.d_flip_flop
+add wave sim:/tff_tb/*
+run -all
+# CLK = 0, T = 0, RESET = 0, Q = 0, Q_BAR = 1
+# CLK = 1, T = 0, RESET = 0, Q = 0, Q_BAR = 1
+# CLK = 1, T = 1, RESET = 0, Q = 0, Q_BAR = 1
+# CLK = 0, T = 1, RESET = 0, Q = 0, Q_BAR = 1
+# CLK = 1, T = 1, RESET = 0, Q = 1, Q_BAR = 0
+# CLK = 1, T = 0, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 0, T = 0, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 1, T = 0, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 1, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 0, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 1, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 1, T = 0, RESET = 0, Q = 0, Q_BAR = 1
+# CLK = 0, T = 0, RESET = 0, Q = 0, Q_BAR = 1
+# CLK = 1, T = 0, RESET = 0, Q = 0, Q_BAR = 1
+# CLK = 1, T = 1, RESET = 0, Q = 0, Q_BAR = 1
+# CLK = 0, T = 1, RESET = 0, Q = 0, Q_BAR = 1
+# CLK = 1, T = 1, RESET = 0, Q = 1, Q_BAR = 0
+# CLK = 1, T = 0, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 0, T = 0, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 1, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 0, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 1, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 0, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# CLK = 1, T = 1, RESET = 1, Q = 0, Q_BAR = 1
+# ** Note: $finish    : D:/Maven Learning/Practicals/Lab4/2 TFF/test_bench/tff_tb.v(27)
+#    Time: 124 ps  Iteration: 0  Instance: /tff_tb
+# 1
+# Break in Module tff_tb at D:/Maven Learning/Practicals/Lab4/2 TFF/test_bench/tff_tb.v line 27
+# Compile of tff.v was successful.
+# Compile of d_flip_flop.v was successful.
+# Compile of tff_tb.v was successful.
+# 3 compiles, 0 failed with no errors.
+restart
+# Loading tff_sim.tff_tb
+# Loading tff_sim.t_flip_flop
+# Loading tff_sim.d_flip_flop
+run -all
+# CLK = 0, T = 0, RESET = 0, Q = 0, Q_BAR = 1
+# CLK = 1, T = 0, RESET = 0, Q = 0, Q_BAR = 1
+# CLK = 1, T = 1, RESET = 0, Q = 0, Q_BAR = 1
+# CLK = 0, T = 1, RESET = 0, Q = 0, Q_BAR = 1
+# CLK = 1, T = 1, RESET = 0, Q = 1, Q_BAR = 0
+# CLK = 1, T = 0, RESET = 0, Q = 1, Q_BAR = 0
+# CLK = 0, T = 0, RESET = 0, Q = 1, Q_BAR = 0
+# CLK = 1, T = 0, RESET = 0, Q = 1, Q_BAR = 0
+# CLK = 1, T = 1, RESET = 0, Q = 1, Q_BAR = 0
+# CLK = 0, T = 1, RESET = 0, Q = 1, Q_BAR = 0
+# CLK = 1, T = 1, RESET = 0, Q = 0, Q_BAR = 1
+# CLK = 1, T = 0, RESET = 0, Q = 0, Q_BAR = 1
+# CLK = 0, T = 0, RESET = 0, Q = 0, Q_BAR = 1
+# CLK = 1, T = 0, RESET = 0, Q = 0, Q_BAR = 1
+# CLK = 1, T = 1, RESET = 0, Q = 0, Q_BAR = 1
+# CLK = 0, T = 1, RESET = 0, Q = 0, Q_BAR = 1
+# CLK = 1, T = 1, RESET = 0, Q = 1, Q_BAR = 0
+# CLK = 1, T = 0, RESET = 0, Q = 1, Q_BAR = 0
+# CLK = 0, T = 0, RESET = 0, Q = 1, Q_BAR = 0
+# CLK = 1, T = 1, RESET = 0, Q = 0, Q_BAR = 1
+# CLK = 0, T = 1, RESET = 0, Q = 0, Q_BAR = 1
+# CLK = 1, T = 1, RESET = 0, Q = 1, Q_BAR = 0
+# CLK = 0, T = 1, RESET = 0, Q = 1, Q_BAR = 0
+# CLK = 1, T = 1, RESET = 0, Q = 0, Q_BAR = 1
+# ** Note: $finish    : D:/Maven Learning/Practicals/Lab4/2 TFF/test_bench/tff_tb.v(27)
+#    Time: 124 ps  Iteration: 0  Instance: /tff_tb
+# 1
+# Break in Module tff_tb at D:/Maven Learning/Practicals/Lab4/2 TFF/test_bench/tff_tb.v line 27
+quit -sim
+# End time: 12:18:09 on Apr 11,2022, Elapsed time: 0:01:57
+# Errors: 0, Warnings: 0
+# reading C:/intelFPGA/17.1/modelsim_ase/win32aloem/../modelsim.ini
+# Loading project 4_bit_counter
+# Compile of counter_4_bit.v was successful.

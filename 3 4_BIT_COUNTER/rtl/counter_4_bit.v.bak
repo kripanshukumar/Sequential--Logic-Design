@@ -1,0 +1,16 @@
+module counter_4_bit(out,in,set,reset,clk);
+
+output reg [3:0] out;
+input [3:0] in = 4'b0000;
+input set,reset,clk;
+
+always @(posedge set)
+	out <= in;
+
+always @(posedge clk)
+	out <= out + 1;
+
+always @(posedge reset)
+	out <= 4'b0000;
+
+endmodule

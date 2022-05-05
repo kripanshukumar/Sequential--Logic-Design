@@ -1,0 +1,13 @@
+|siso_4_bit
+s_out <= s_out~reg0.DB_MAX_OUTPUT_PORT_TYPE
+s_in => ff.DATAA
+rst => ff.OUTPUTSELECT
+rst => ff.OUTPUTSELECT
+rst => ff.OUTPUTSELECT
+rst => s_out~reg0.ENA
+clk => s_out~reg0.CLK
+clk => ff[0].CLK
+clk => ff[1].CLK
+clk => ff[2].CLK
+
+

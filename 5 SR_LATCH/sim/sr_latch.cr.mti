@@ -1,0 +1,15 @@
+{D:/Maven Learning/Practicals/Lab4/5 SR_LATCH/test_bench/sr_tb.v} {1 {vlog -work sr_sim -stats=none {D:/Maven Learning/Practicals/Lab4/5 SR_LATCH/test_bench/sr_tb.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module sr_tb
+
+Top level modules:
+	sr_tb
+
+} {} {}} {D:/Maven Learning/Practicals/Lab4/5 SR_LATCH/rtl/sr_latch.v} {1 {vlog -work sr_sim -stats=none {D:/Maven Learning/Practicals/Lab4/5 SR_LATCH/rtl/sr_latch.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module sr_latch
+
+Top level modules:
+	sr_latch
+
+} {} {}}

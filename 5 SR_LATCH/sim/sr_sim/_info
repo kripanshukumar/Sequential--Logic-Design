@@ -1,0 +1,73 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/Maven Learning/Practicals/Lab4/4 JK_FLIP_FLOP_PAR_HOLD_SET_RESET_TOGGLE/sim
+vsd_latch
+!s110 1649668288
+!i10b 1
+!s100 ?n1gR9Mh2B7i1;AP2W9bJ1
+IK4[X]?;RhC3ESTkQHVjOF3
+Z0 VDg1SIo80bB@j0V0VzS_@n1
+Z1 dD:/Maven Learning/Practicals/Lab4/5 SR_LATCH/sim
+w1649667925
+Z2 8D:/Maven Learning/Practicals/Lab4/5 SR_LATCH/rtl/sr_latch.v
+Z3 FD:/Maven Learning/Practicals/Lab4/5 SR_LATCH/rtl/sr_latch.v
+L0 1
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1649668288.000000
+Z5 !s107 D:/Maven Learning/Practicals/Lab4/5 SR_LATCH/rtl/sr_latch.v|
+Z6 !s90 -reportprogress|300|-work|sr_sim|-stats=none|D:/Maven Learning/Practicals/Lab4/5 SR_LATCH/rtl/sr_latch.v|
+!i113 1
+Z7 o-work sr_sim
+Z8 tCvgOpt 0
+vsr_latch
+Z9 !s110 1649668451
+!i10b 1
+!s100 V5JngJg1F_@?nafaQ]Z@e2
+Iol]3DY1HVilngA4M8jnWU3
+R0
+R1
+w1649668312
+R2
+R3
+L0 1
+R4
+r1
+!s85 0
+31
+Z10 !s108 1649668451.000000
+R5
+R6
+!i113 1
+R7
+R8
+vsr_tb
+R9
+!i10b 1
+!s100 ZSnTEBXD5`O>YcZ0cG^JJ3
+Ig4D4;>4`6P9:UJ5zUYZAA2
+R0
+R1
+w1649668448
+8D:/Maven Learning/Practicals/Lab4/5 SR_LATCH/test_bench/sr_tb.v
+FD:/Maven Learning/Practicals/Lab4/5 SR_LATCH/test_bench/sr_tb.v
+L0 1
+R4
+r1
+!s85 0
+31
+R10
+!s107 D:/Maven Learning/Practicals/Lab4/5 SR_LATCH/test_bench/sr_tb.v|
+!s90 -reportprogress|300|-work|sr_sim|-stats=none|D:/Maven Learning/Practicals/Lab4/5 SR_LATCH/test_bench/sr_tb.v|
+!i113 1
+R7
+R8

@@ -1,0 +1,1 @@
+Warning (10268): Verilog HDL information at mod12_counter.v(6): always construct contains both blocking and non-blocking assignments File: D:/Maven Learning/Practicals/Lab4/6 MOD12_UP_COUNTER/rtl/mod12_counter.v Line: 6
